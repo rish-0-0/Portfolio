@@ -1,0 +1,41 @@
+{
+  "name": "cv",
+  "version": "0.0.1",
+  "description": "My Portfolio, Rishabh Anand",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "NODE_ENV=production webpack",
+    "start": "webpack-dev-server --open",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rish-0-0/portfolio.git"
+  },
+  "keywords": [
+    "Portfolio",
+    "HTML",
+    "CSS",
+    "SCSS",
+    "Webpack",
+    "Rishabh",
+    "Anand",
+    "Epic"
+  ],
+  "author": "Rishabh Anand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rish-0-0/portfolio/issues"
+  },
+  "homepage": "https://github.com/rish-0-0/portfolio#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.0",
+    "file-loader": "^6.1.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.2.0",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
