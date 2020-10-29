@@ -1,6 +1,22 @@
 :root {
   --bg-color: #171836; /* Dark Theme */
 }
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('/dist/assets/fonts/Lato-Regular.ttf');
+}
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('/dist/assets/fonts/Montserrat-Light.ttf');
+}
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('/dist/assets/fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url('/dist/assets/fonts/Montserrat-SemiBold.ttf');
+}
 html, body {
   margin: 0;
   padding:0;

@@ -68,5 +68,6 @@ module.exports = {
   output: {
     filename: "[name]",
     path: path.resolve(__dirname, "dist"),
+    publicPath: '/',
   },
 };
