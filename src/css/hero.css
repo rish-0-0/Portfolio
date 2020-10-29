@@ -1,0 +1,29 @@
+#heroimg {
+  width: 100vw;
+}
+
+/* Small Devices */
+@media only screen and (min-width:576px) {
+
+}
+
+/* Medium Devices */
+@media only screen and (min-width:768px) {
+  #heroimg {
+    width: 75vw;
+  }
+}
+
+/* Large Devices */
+@media only screen and (min-width:992px) {
+  #heroimg {
+    width: 60vw;
+  }
+}
+
+/* Extra Large Devices */
+@media only screen and (min-width:1200px) {
+  #heroimg {
+    width: 40vw;
+  }
+}

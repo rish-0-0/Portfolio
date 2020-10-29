@@ -26,6 +26,7 @@ const getAllFilesInDirectory = (dir, array) => {
 module.exports = {
   mode: process.env.NODE_ENV != undefined ? "production" : "development",
   entry: {
+    "sw.js": path.resolve(__dirname, 'src/service-worker.js'),
     "bundle.js": getAllFilesInDirectory("src/js"),
     style: getAllFilesInDirectory("src/css"),
   },
