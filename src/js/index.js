@@ -1,3 +1,18 @@
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker.register("/sw.js").then(
+      function (registration) {
+        console.log(
+          "Registration done of service worker: ",
+          registration.scope
+        );
+      },
+      function (err) {
+        console.log("Service worker registration failed: ", err);
+      }
+    );
+  });
+}
 window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', e => {
   if (e.matches) {
     // User Prefers Light Mode

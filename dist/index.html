@@ -9,23 +9,6 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <script defer>
-      if ("serviceWorker" in navigator) {
-        window.addEventListener("load", function () {
-          navigator.serviceWorker.register("/sw.js").then(
-            function (registration) {
-              console.log(
-                "Registration done of service worker: ",
-                registration.scope
-              );
-            },
-            function (err) {
-              console.log("Service worker registration failed: ", err);
-            }
-          );
-        });
-      }
-    </script>
     <section class="hero">
       <img src="assets/Hero_dark_png.png" id="heroimg" />
       <h1 id="myname">RISHABH ANAND</h1>
