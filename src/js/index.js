@@ -22,9 +22,9 @@ window
     if (e.matches) {
       // User Prefers Light Mode
       // Do stuff here
-      document.getElementById("heroimg").src = "assets/Hero_light_jpg.jpg";
+      document.getElementById("heroimg").src = "assets/Hero_light_jpg_white.jpg";
     } else {
       // Proceed with dark mode enabled
-      document.getElementById("heroimg").src = "assets/Hero_dark_jpg.jpg";
+      document.getElementById("heroimg").src = "assets/Hero_dark_jpg_black.jpg";
     }
   });

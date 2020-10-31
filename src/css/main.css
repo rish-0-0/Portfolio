@@ -1,5 +1,6 @@
 :root {
-  --bg-color: #171836; /* Dark Theme */
+  /* --bg-color: #171836; */
+  --bg-color: #000;
 }
 @font-face {
   font-family: 'Lato-Regular';
@@ -23,8 +24,20 @@ html, body {
   background-color: var(--bg-color);
 }
 
+.section-title {
+  font-family: 'Montserrat-SemiBold';
+  text-align: center;
+  letter-spacing: 0.5ch;
+  color: #4e8be2;
+}
+
+section {
+  width: 100%;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-color: #c2ebff; /* Light Theme */
+    /* --bg-color: #c2ebff; */
+    --bg-color: #fff;
   }
 }
