@@ -4,8 +4,8 @@ const URLS_TO_CACHE = [
   "/index.html",
   "/style.css",
   "/bundle.js",
-  "/assets/Hero_dark_png.png",
-  "/assets/Hero_light_png.png",
+  "/assets/Hero_dark_jpg.jpg",
+  "/assets/Hero_light_jpg.jpg",
   "/assets/RA_Final_logo.png",
 ];
 self.addEventListener("install", function (event) {

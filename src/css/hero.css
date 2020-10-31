@@ -3,35 +3,93 @@
   src: url('/dist/assets/fonts/Lato-Bold.ttf');
 }
 
+.hero {
+  width: 100%;
+  position: relative;
+}
+
 #heroimg {
   width: 100vw;
 }
 
 #myname {
   font-family: 'Lato-Bold';
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  position: absolute;
+  right:0;
+}
+
+.subhero {
+  font-family: 'Lato-Regular';
+  position: absolute;
+  right:0;
 }
 /* Small Devices */
-@media only screen and (min-width:576px) {
+@media only screen and (max-width:767.98px) {
+  #myname {
+    top: 0;
+  }
+  #mywork {
+    bottom: 3.5vh;
+    font-size: 5vw;
+  }
 
+  #myhobby {
+    bottom:0;
+    font-size: 5vw;;
+  }
 }
 
 /* Medium Devices */
 @media only screen and (min-width:768px) {
   #heroimg {
     width: 75vw;
+    bottom:0;
+  }
+
+  #myname {
+    writing-mode: horizontal-tb;
+    bottom:0;
+    font-size: 8vh;
+  }
+
+  #mywork {
+    bottom: 20vh;
+    font-size: 5vw;
+  }
+
+  #myhobby {
+    bottom:25vh;
+    font-size: 5vw;;
   }
 }
 
 /* Large Devices */
-@media only screen and (min-width:992px) {
+@media only screen and (min-width:1025px) {
   #heroimg {
     width: 60vw;
+  }
+
+  #myname {
+    top: 8vh;
+    font-size: 13vh;
+  }
+  
+  #mywork {
+    top: 28vh;
+    font-size: 7vh;
+  }
+
+  #myhobby {
+    top: 37vh;
+    font-size: 7vh;
   }
 }
 
 /* Extra Large Devices */
 @media only screen and (min-width:1200px) {
   #heroimg {
-    width: 40vw;
+    width: 25vw;
   }
 }

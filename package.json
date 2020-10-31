@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "build": "NODE_ENV=production webpack",
-    "start": "webpack serve",
+    "start": "webpack serve --host 0.0.0.0",
     "watch": "webpack --watch"
   },
   "repository": {
