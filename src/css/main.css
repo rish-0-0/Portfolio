@@ -3,6 +3,10 @@
   --bg-color: #000;
 }
 @font-face {
+  font-family: 'Lato-Thin';
+  src: url('/dist/assets/fonts/Lato-Thin.ttf');
+}
+@font-face {
   font-family: 'Lato-Regular';
   src: url('/dist/assets/fonts/Lato-Regular.ttf');
 }

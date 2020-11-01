@@ -13,7 +13,8 @@ const URLS_TO_CACHE = [
   "3cd786652b8a2e9d41f210cb1a527ff6.ttf",
   "5dd5aa0269395f0ea92763e6cb3bc07a.ttf",
   "9919edff6283018571add043109dc20b.ttf",
-  "fa8441f345d83a0bc4ec345a6948dbb0.ttf"
+  "fa8441f345d83a0bc4ec345a6948dbb0.ttf",
+  "01923cbbba31d9cb7f29626b20775cdd.ttf",
 ];
 self.addEventListener("install", function (event) {
   // Perform install events

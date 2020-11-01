@@ -14,7 +14,7 @@ if ("serviceWorker" in navigator) {
   });
 }
 if (window.matchMedia("(prefers-color-scheme: light)").matches) {
-  document.getElementById("heroimg").src = "assets/Hero_light_jpg.jpg";
+  document.getElementById("heroimg").src = "assets/Hero_light_jpg_white.jpg";
 }
 window
   .matchMedia("(prefers-color-scheme: light)")
