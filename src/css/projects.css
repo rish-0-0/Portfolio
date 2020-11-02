@@ -7,7 +7,6 @@
 }
 
 .project-about {
-
 }
 
 .project-title {
@@ -19,19 +18,47 @@
 .project-description {
   font-family: 'Lato-Regular';
   font-size: 0.85rem;
-  color: #565656;
+  color: #8f8f8f;
 }
 
-.project-link {
+.project-link:link {
+  text-decoration: none;
+}
 
+.project-link:visited {
+  text-decoration: none;
+}
+
+.project-link:active {
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: none;
 }
 
 @media only screen and (max-width:767.98px) {
-  
+  .project-about {
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+  }
+  .project-description {
+    margin-bottom: 8%;
+  }
 }
 @media only screen and (min-width:768px) {
 }
 @media only screen and (min-width: 1025px) {
+  .project-about {
+    width: 20%;
+    margin: 1%;
+    padding: 1%;
+  }
+
+  .project-description {
+    margin-bottom: 10%;
+  }
 }
 @media only screen and (min-width: 1200px) {
 }

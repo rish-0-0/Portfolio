@@ -1,9 +1,9 @@
 .btn-primary {
-  background-color: #4e8be2;
+  background-color: #4e8be2 !important;
 }
 
 .btn-secondary {
-  background-color: #fe8865;
+  background-color: #fe8865 !important;
 }
 
 .btn {
