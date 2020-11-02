@@ -1,15 +1,17 @@
 #aboutimg {
-  width: 100vw;
+  width: 40vw;
+  float: left;
 }
 
 .aboutme {
   font-family: 'Lato-Regular';
   font-size: 0.85rem;
   color: #8f8f8f;
+  padding: 16px;
 }
 @media only screen and (max-width: 767.98px) {
   .aboutme {
-    text-align: center;
+    text-align: justify;
   }
 }
 @media only screen and (min-width: 768px) {
