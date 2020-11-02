@@ -1,3 +1,20 @@
-div {
-  margin: 0;
+#aboutimg {
+  width: 100vw;
+}
+
+.aboutme {
+  font-family: 'Lato-Regular';
+  font-size: 0.85rem;
+  color: #8f8f8f;
+}
+@media only screen and (max-width: 767.98px) {
+  .aboutme {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 1025px) {
+}
+@media only screen and (min-width: 1200px) {
 }

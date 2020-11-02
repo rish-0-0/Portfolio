@@ -15,6 +15,8 @@ const URLS_TO_CACHE = [
   "9919edff6283018571add043109dc20b.ttf",
   "fa8441f345d83a0bc4ec345a6948dbb0.ttf",
   "01923cbbba31d9cb7f29626b20775cdd.ttf",
+  "bfc37ff1d5543ecd4ec661f4ab38622e.ttf",
+  "RA_Favicon.png",
 ];
 self.addEventListener("install", function (event) {
   // Perform install events

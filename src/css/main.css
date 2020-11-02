@@ -1,10 +1,16 @@
 :root {
   /* --bg-color: #171836; */
   --bg-color: #000;
+  --active-button-color: #fe6445;
+  --active-link-color: #2b6bb7;
 }
 @font-face {
   font-family: 'Lato-Thin';
   src: url('/dist/assets/fonts/Lato-Thin.ttf');
+}
+@font-face {
+  font-family: 'Lato-Light';
+  src: url('/dist/assets/fonts/Lato-Light.ttf');
 }
 @font-face {
   font-family: 'Lato-Regular';

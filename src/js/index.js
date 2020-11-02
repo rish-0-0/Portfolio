@@ -15,6 +15,7 @@ if ("serviceWorker" in navigator) {
 }
 if (window.matchMedia("(prefers-color-scheme: light)").matches) {
   document.getElementById("heroimg").src = "assets/Hero_light_jpg_white.jpg";
+  document.getElementById("aboutimg").src = "assets/About_light_jpg.jpg";
 }
 window
   .matchMedia("(prefers-color-scheme: light)")
@@ -23,8 +24,10 @@ window
       // User Prefers Light Mode
       // Do stuff here
       document.getElementById("heroimg").src = "assets/Hero_light_jpg_white.jpg";
+      document.getElementById("aboutimg").src = "assets/About_light_jpg.jpg";
     } else {
       // Proceed with dark mode enabled
       document.getElementById("heroimg").src = "assets/Hero_dark_jpg_black.jpg";
+      document.getElementById("aboutimg").src = "assets/About_dark_jpg.jpg";
     }
   });

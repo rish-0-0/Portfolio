@@ -47,7 +47,15 @@
     margin-bottom: 8%;
   }
 }
-@media only screen and (min-width:768px) {
+@media only screen and (min-width:768px) and (max-width:1024.98px) {
+  .project-about {
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+  }
+  .project-description {
+    margin-bottom: 8%;
+  }
 }
 @media only screen and (min-width: 1025px) {
   .project-about {
@@ -58,6 +66,10 @@
 
   .project-description {
     margin-bottom: 10%;
+  }
+
+  .project-description .content-left {
+    text-align: right !important;
   }
 }
 @media only screen and (min-width: 1200px) {
