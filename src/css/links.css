@@ -1,3 +1,4 @@
 .orange-line-break {
+  width: max(50%, 300px);
   border: 1px solid var(--active-button-color);
 }
