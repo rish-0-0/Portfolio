@@ -45,7 +45,26 @@
       </p>
     </section>
     <section class="contactme">
-      
+      <div class="contact-me-section-header">
+        <span class="border-line"></span>
+        <span id="contact-section-heading">Contact Me</span>
+        <span class="border-line"></span>
+      </div>
+      <div class="form-wrapper">
+        <form action="/send_email" method="POST" id="email_form">
+          <div class="input-group">
+            <span class="input-icon">
+              <img src="assets/email-icon.svg" width="20" height="20" id="emailicon" />
+            </span>
+            <input type="email" placeholder="Email" id="emailinput" name="email" />
+          </div>
+          <br/>
+          <input type="submit" value="Submit" class="btn btn-secondary btn-large" />
+        </form>
+      </div>
+    </section>
+    <section class="links">
+      <hr class="orange-line-break"/>
     </section>
     <section class="footer">
       <img src="assets/RA_Final_logo.png" id="finallogo" />

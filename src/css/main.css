@@ -28,6 +28,10 @@
   font-family: 'Montserrat-SemiBold';
   src: url('/dist/assets/fonts/Montserrat-SemiBold.ttf');
 }
+@font-face {
+  font-family: 'Raleway-Light';
+  src: url('/dist/assets/fonts/Raleway-Light.ttf');
+}
 html, body {
   margin: 0;
   padding:0;
@@ -51,3 +55,10 @@ section {
     --bg-color: #fff;
   }
 }
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  opacity: 1;
+  }

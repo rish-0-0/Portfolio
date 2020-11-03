@@ -1,0 +1,67 @@
+.contact-me-section-header {
+  width: 100%;
+}
+#contact-section-heading {
+  font-family: 'Lato-Regular';
+  font-size: 25px;
+  margin: 4px 8px;
+}
+.contactme {
+  text-align: center;
+  clear: both;
+}
+
+.border-line {
+  width: min(20vw, 150px);
+  border: 1px solid var(--active-button-color);
+  display: inline-block;
+  /* height: 0; */
+}
+
+.contactme .input-group {
+  width: min(80%, 500px);
+  padding: 12px 0;
+  margin: 12px 0;
+  border-radius: 36px;
+  background-color: #000;
+  display: inline-block;
+}
+
+.contactme .input-group input[type=email] {
+  background-color: #000;
+  /* border-radius: 72px; */
+  /* width: min(80vw, 576px); */
+  /* height: 72px; */
+  border: none;
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Raleway-Light';
+  letter-spacing: 1px;
+
+}
+
+.contactme .input-icon {
+  width: 100%;
+  margin:4px;
+}
+
+#emailicon {
+  /* position: absolute; */
+}
+
+#emailinput {
+  width:75%;
+}
+
+#emailinput:focus {
+  outline: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .contactme .input-group {
+    background-color: #222;
+  }
+  .contactme .input-group input[type=email] {
+    background-color: #222;
+  }
+}
