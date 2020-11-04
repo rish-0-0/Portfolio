@@ -1,4 +1,102 @@
 .orange-line-break {
-  width: max(50%, 300px);
+  width: 100%;
+  margin:0;
   border: 1px solid var(--active-button-color);
+}
+
+#insta-pic {
+  /* width: 70px; */
+}
+.links {
+  text-align: center;
+  max-width: 100%;
+}
+.links-wrapper {
+  display: inline-flex;
+  flex-direction: row;
+  width: max(60%, 300px);
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.link-container {
+  flex:1;
+  text-align: center;
+  width:24%;
+  margin: 0 9% 0 0;
+}
+.link-container:last-child {
+  margin:0;
+}
+
+.link-container:active {
+  text-decoration: none;
+}
+.link-container:hover {
+  text-decoration: none;
+}
+.link-container:visited {
+  text-decoration: none;
+}
+.link-container:link {
+  text-decoration: none;
+}
+
+.link-text {
+  color: white;
+  font-family: 'Lato-Regular';
+  font-size: min(32px, 5vw);
+}
+
+@media (prefers-color-scheme: light) {
+  .link-text {
+    color: black;
+  }
+}
+
+.link-icons {
+  /* max-width: 80px; */
+  display: inline-block;
+  width: 100%;
+}
+
+#linkedin-pic {
+  border-radius: 5px;
+  /* width: 55px; */
+}
+
+#github-pic {
+  /* width: 55px; */
+}
+
+.icon-wrapper {
+  padding:5%;
+}
+
+@media only screen and (max-width:300.98px) {
+  .link-container {
+    width: 10%;
+  }
+  .links-wrapper {
+    display: inline-block;
+  }
+  .orange-line-break {
+    width: 100%;
+  }
+  .link-icons {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width:768px) {
+  .orange-line-break {
+    width: 50%;
+    display: inline-block;
+  }
+
+  .links {
+    width: 100%;
+    text-align: center;
+  }
 }

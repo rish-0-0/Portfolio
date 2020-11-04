@@ -7,7 +7,7 @@
 }
 
 .btn-large {
-  font-size: 25px;
+  font-size: min(25px,7vw);
   letter-spacing: 1.5px;
   font-family: 'Raleway-Light' !important;
   padding: 0 !important;
@@ -43,3 +43,14 @@
 }
 
 
+@media only screen and (max-width:767.98px) {
+  .btn-large {
+    width:50%;
+  }
+}
+@media only screen and (min-width:768px) {
+}
+@media only screen and (min-width: 1025px) {
+}
+@media only screen and (min-width: 1200px) {
+}

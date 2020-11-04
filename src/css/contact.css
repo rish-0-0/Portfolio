@@ -3,7 +3,7 @@
 }
 #contact-section-heading {
   font-family: 'Lato-Regular';
-  font-size: 25px;
+  font-size: min(25px,8vw);
   margin: 4px 8px;
 }
 .contactme {
@@ -34,7 +34,7 @@
   /* height: 72px; */
   border: none;
   color: #fff;
-  font-size: 25px;
+  font-size: min(25px,8vw);
   font-family: 'Raleway-Light';
   letter-spacing: 1px;
 
