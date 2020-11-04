@@ -17,7 +17,10 @@ const URLS_TO_CACHE = [
   "01923cbbba31d9cb7f29626b20775cdd.ttf",
   "bfc37ff1d5543ecd4ec661f4ab38622e.ttf",
   "f25e9b3a1fc8e48e53f51de9838c95fa.ttf",
-  "RA_Favicon.png",
+  "/assets/RA_Favicon.png",
+  "/assets/github-white-circle.png",
+  "/assets/insta-black-circle.png",
+  "/assets/linkedin-white-back.jpg",
 ];
 self.addEventListener("install", function (event) {
   // Perform install events
