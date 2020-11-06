@@ -4,14 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="dark light" />
+    <meta
+      name="description"
+      content="Software Developer from BITS Pilani, Goa Campus (2021). Proficient in Hybrid Technologies like React Native and Flutter and Core technologies like NodeJS, React, Flask, Android, C++, WebAssembly, TypeScript, JavaScript, Webpack, Rollup, PostgreSQL, MongoDB, AWS Cloud, GCP, Firebase, GitHub, GitLab."
+    />
+    <meta name="robots" content="index, follow" />
     <link
       rel="icon"
       type="image/png"
       href="assets/RA_Favicon.png"
       sizes="16x16 32x32 96x96 180x180"
     />
-    <title>Rishabh Anand | Home</title>
+    <title>Rishabh Anand | Portfolio</title>
     <link href="style.css" rel="stylesheet" />
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="" />
+    <meta name="twitter:title" content="Rishabh Anand | Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Software Developer from BITS Pilani, Goa Campus (2021). Proficient in Hybrid Technologies like React Native and Flutter and Core Technologies like NodeJS, React, Python, WebAssembly, JavaScript, C++."
+    />
+    <meta name="twitter:creator" content="" />
+    <meta
+      name="twitter:image:src"
+      content="https://rishabh-anand.com/assets/RA_Final_logo.png"
+    />
+    <!-- Open Graph Data -->
+    <meta property="og:title" content="Rishabh Anand | Portfolio" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://rishabh-anand.com" />
+    <meta
+      property="og:image"
+      content="https://rishabh-anand.com/assets/RA_Final_logo.png"
+    />
+    <meta
+      property="og:description"
+      content="Software Developer from BITS Pilani, Goa Campus (2021). Proficient in Hybrid Technologies like React Native and Flutter and Core Technologies like NodeJS, React, Python, WebAssembly, JavaScript, C++."
+    />
+    <meta property="og:site_name" content="Rishabh Anand" />
+    <meta
+      property="article:published_time"
+      content="2020-11-03T18:30:00.000Z"
+    />
+    <meta property="article:modified_time" content="2020-11-06T06:40:50.655Z" />
   </head>
   <body>
     <section class="hero">
@@ -27,32 +63,223 @@
     <section class="projects">
       <h1 class="section-title" aria-level="1" role="heading">PROJECTS</h1>
       <div class="project-wrapper">
-        <div class="project-thumbnail"></div>
-        <div class="project-about">
-          <h3 class="project-title">Project Title</h3>
-          <p class="project-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos libero
-            aliquam, distinctio reprehenderit adipisci, et ratione aliquid
-            accusantium tenetur esse perspiciatis, minima dolorum perferendis
-            sapiente cupiditate harum numquam asperiores similique.
-          </p>
-          <a href="#" class="project-link btn btn-primary"> View </a>
+        <div class="seperator"></div>
+        <div class="project-thumbnail-wrapper">
+          <img
+            src="assets/Reha.jpg"
+            class="project-thumbnail-img"
+            id="reha-img"
+          />
         </div>
+        <div class="project-about">
+          <h3 class="project-title">Reha</h3>
+          <p class="project-description">
+            Reha is a mobile dating app based on astrological predictions and
+            theory. A team project for a client based in USA for the Indian
+            Market. The astrological calculations relied on a library designed
+            by me (
+            <a
+              href="https://www.npmjs.com/package/astroreha"
+              target="_blank"
+              class="inline-links"
+              >npm link</a
+            >
+            ). The application's system design and architecture was done by me
+            and that involved setting up a
+            <span class="highlighted"
+              >PostgreSQL, Express, Firebase Authentication, Firebase Cloud
+              Messaging, AWS S3, React Native Stack</span
+            >. The development part of this app was given to the junior
+            developers in the team of which I was the lead of. The app is
+            currently in beta and soon awaiting Full Production Rollout. Please
+            click view to join the Beta Program and become a tester!
+          </p>
+          <a
+            href="https://play.google.com/apps/testing/com.rehaapp"
+            target="_blank"
+            class="project-link btn btn-primary"
+          >
+            View
+          </a>
+        </div>
+        <div class="seperator"></div>
+      </div>
+      <div class="project-wrapper" id="parkpoolr">
+        <div class="seperator"></div>
+        <div class="project-about content-left">
+          <h3 class="project-title">Parkpoolr</h3>
+          <p class="project-description">
+            Was my first project as an intern doing
+            <span class="highlighted"
+              >React, ExpressJS, PostgreSQL, and Firebase Authentication.</span
+            >
+            The application provides an interface to make renting your parking
+            space when you're not using it available to others. The project
+            comprised of an
+            <span class="highlighted"
+              >iOS User Facing Application, an Admin Panel and a CMS (called
+              Host Panel)</span
+            >. The iOS application was built using
+            <span class="highlighted"
+              >React Native, Featuring react-native-maps, Google Directions,
+              Google Places APIs, etc</span
+            >. The project is in production (The app is for the USA Market, so
+            it won't be visible in the Indian Version of the Apple App Store)
+            App Store Link (For Americans) :
+            <a
+              class="inline-links"
+              href="https://apps.apple.com/us/app/parkpoolr/id1509892715"
+              target="_blank"
+              >ParkPoolr</a
+            >
+          </p>
+          <a
+            href="https://host.parkpoolr.com/login"
+            target="_blank"
+            class="project-link btn btn-primary"
+          >
+            View
+          </a>
+        </div>
+        <div class="project-thumbnail-wrapper">
+          <img src="assets/parkpoolr.png" class="project-thumbnail-img" />
+        </div>
+        <div class="seperator"></div>
       </div>
     </section>
     <section class="about">
       <h1 class="section-title" aria-level="1" role="heading">ABOUT</h1>
       <img src="assets/About_dark_jpg.jpg" id="aboutimg" />
       <p class="aboutme">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        delectus fuga expedita. Illo nobis quo voluptatem cumque, voluptatibus
-        illum aspernatur, mollitia, dicta enim qui laboriosam totam eaque
-        dignissimos. Sint, quia.
+        Software Developer based in Bangalore. Currently a 4th year CS Student,
+        studying in BITS Pilani, KK Birla Goa Campus and graduating in August
+        2021.
       </p>
       <p class="aboutme">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam aut
-        quia aliquid maiores corrupti repellat expedita consectetur ad sed
-        repellendus sit modi quod libero, sunt dolore tempora aperiam illo! Et.
+        I have done multiple internships, first being in the Science Museum of
+        BITS Pilani, Pilani Campus where I built a ChatBot which talks back to
+        the visitors in their native language (Hindi). I used Google's
+        DialogFlow API and ExpressJS and built a frontend for it using
+        React-Electron and deployed it on a Raspberry Pi attatched to a USB
+        microphone and an HDMI monitor. This project with the Birla Science
+        Museum was in partial fulfillment of the PS-I course at BITS Pilani,
+        Goa.
+      </p>
+      <p class="aboutme">
+        I have taken courses in my campus (BITS Pilani, Goa Campus) which
+        involved React, NodeJS and MongoDB. The strength of the class was 50 and
+        my first teaching experience.
+      </p>
+      <p class="aboutme">
+        My second internship was at
+        <a href="https://fountane.com/" class="inline-links" target="_blank"
+          >Fountane</a
+        >
+        based in Hyderabad, India. It was a wonderful experience where I made
+        <a href="#parkpoolr" class="inline-links">Parkpoolr</a> using my
+        knowledge of React, ExpressJS, PostgreSQL, Firebase Services. I had, as
+        part of my interview and screening process, also helped in building
+        <a target="_blank" href="https://www.corbata.com/" class="inline-links"
+          >Corbata</a
+        >, an Uber Like application and was involved in the backend where I had
+        written the basis of the shortest path algorithm between user and
+        driver, and also performed a migration of data from the older MongoDB
+        stack to the newer PostgreSQL stack for speed improvements and
+        scalability. <br /><br />
+        Shortly after my second internship, I got another opportunity to work
+        with
+        <a href="https://caarya.in/" target="_blank" class="inline-links"
+          >Caarya</a
+        >
+        where I was at a senior level among the developers and I was heading
+        multiple teams. Although this was part time (as I am still studying),
+        the Corona Virus pandemic converted me to a fulltime developer where I
+        actively participated in 7 projects (<a
+          href="https://10trove.com/"
+          class="inline-links"
+          target="_blank"
+          >10Trove</a
+        >,
+        <a
+          href="https://dhaatri-caarya.web.app/login"
+          class="inline-links"
+          target="_blank"
+          >Dhaatri</a
+        >,
+        <a href="https://rentyo.com/" class="inline-links" target="_blank"
+          >Rentyo</a
+        >,
+        <a
+          href="https://play.google.com/apps/testing/com.rehaapp"
+          class="inline-links"
+          target="_blank"
+          >Reha</a
+        >,
+        <a
+          href="https://raxa-admin-panel.web.app/"
+          class="inline-links"
+          target="_blank"
+          >Raxa</a
+        >,
+        <a
+          href="https://chronoscaarya.web.app/"
+          class="inline-links"
+          target="_blank"
+          >Chronos</a
+        >,
+        <a
+          href="https://tce-asset-library.web.app/"
+          class="inline-links"
+          target="_blank"
+          >Design Storybook</a
+        >
+        ). All of the projects mentioned previously, used either React,
+        PostgreSQL, ExpressJS or used the Angular, PostgreSQL, ExpressJS stacks.
+      </p>
+      <p class="aboutme">
+        My fourth and last internship was at
+        <a href="https://megh.com/" class="inline-links" target="_blank"
+          >Megh Computing</a
+        >
+        where I took up a different kind of problem as a challenge. The problem
+        was to keep track of the warehouse items and the number of people
+        entering and leaving the warehouse throughout the entirety of the day.
+        The solution proposed was Computer Vision based and that is being built
+        using Python and common computer vision deep learning models. The
+        project involves a staged pipeline for detecting objects and keeping
+        track of them and I have built all the pipeline stages. A browser tool
+        which was also a requirement for the project for remote access to the
+        server and some statistics is also being built by me. The project is an
+        inhouse project as part of the internship for the company. This project
+        is in partial fulfillment of the PS-II course offered at BITS Pilani,
+        Goa Campus.
+      </p>
+      <p class="aboutme">
+        Other than the projects at internships, I have done a research project
+        under the guidance of my networks programming teacher, Raj Kumar at BITS
+        Pilani, Goa Campus. The title of the project was Using Deep Learning
+        to guide Software Defined Networks. In this project I had to build a
+        Deep Learning model with the data being provided by Raj Sir, using which
+        the model could understand the various intricacies of the Software
+        Defined Hosts, Software Defined Routers and Software Defined Sub
+        Networks and easily adapt to give the least consumption of power while
+        also taking into account Bandwidth and Congestion. The project involved
+        building a network controller using the POX controller and a Tensorflow
+        Model.
+      </p>
+      <p class="aboutme">
+        I have one personal project which took a long time to achieve with the
+        help of some seniors we were able to get some data and few users
+        onboarded.
+        <a
+          href="https://ucadd.rishabh-anand.com/"
+          target="_blank"
+          class="inline-links"
+          >Ucadd</a
+        >
+        is an online learning platform which has carefully curated videos, tons
+        of questions and perfect analysis to help you guide your JEE (Joint
+        Entrance Examination) preparation to the absolute next level.
       </p>
     </section>
     <section class="contactme">
@@ -89,9 +316,13 @@
       </div>
     </section>
     <section class="links">
-      <hr class="orange-line-break" />
+      <!-- <hr class="orange-line-break" /> -->
       <div class="links-wrapper">
-        <a class="link-container" href="https://www.instagram.com/rish_0_0/" target="_blank">
+        <a
+          class="link-container"
+          href="https://www.instagram.com/rish_0_0/"
+          target="_blank"
+        >
           <div class="icon-wrapper">
             <img
               src="assets/insta-black-circle.png"
@@ -101,7 +332,11 @@
           </div>
           <span class="link-text">Instagram</span>
         </a>
-        <a class="link-container" href="https://www.linkedin.com/in/rishabh-anand-2995a7106/" target="_blank">
+        <a
+          class="link-container"
+          href="https://www.linkedin.com/in/rishabh-anand-2995a7106/"
+          target="_blank"
+        >
           <div class="icon-wrapper">
             <img
               src="assets/linkedin-white-back.jpg"
@@ -111,7 +346,11 @@
           </div>
           <span class="link-text">LinkedIn</span>
         </a>
-        <a class="link-container" href="https://github.com/rish-0-0" target="_blank">
+        <a
+          class="link-container"
+          href="https://github.com/rish-0-0"
+          target="_blank"
+        >
           <div class="icon-wrapper">
             <img
               src="assets/github-white-circle.png"

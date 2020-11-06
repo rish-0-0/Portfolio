@@ -21,6 +21,9 @@ const URLS_TO_CACHE = [
   "/assets/github-white-circle.png",
   "/assets/insta-black-circle.png",
   "/assets/linkedin-white-back.jpg",
+  "/assets/Reha.jpg",
+  "/assets/Reha.png",
+  "/assets/parkpoolr.png"
 ];
 self.addEventListener("install", function (event) {
   // Perform install events
