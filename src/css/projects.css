@@ -86,6 +86,10 @@
   .project-wrapper .seperator {
     flex: 0;
   }
+
+  .project-wrapper:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
   .project-wrapper:nth-child(odd) .project-about {
     text-align: right;
   }
@@ -101,8 +105,12 @@
     margin-bottom: 10%;
   }
 
-  .content-left {
-    flex-direction: row-reverse !important;
+  .project-wrapper:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+
+  .project-wrapper:nth-child(odd) .project-about {
+    text-align: right;
   }
 
   /* .project-thumbnail-wrapper {
