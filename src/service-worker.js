@@ -23,7 +23,10 @@ const URLS_TO_CACHE = [
   "/assets/linkedin-white-back.jpg",
   "/assets/Reha.jpg",
   "/assets/Reha.png",
-  "/assets/parkpoolr.png"
+  "/assets/parkpoolr.png",
+  "/assets/About_dark_jpg.jpg",
+  "/assets/About_light_jpg.jpg",
+  "/assets/email-icon.svg",
 ];
 self.addEventListener("install", function (event) {
   // Perform install events
