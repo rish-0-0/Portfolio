@@ -66,15 +66,28 @@
   .project-description {
     margin-bottom: 8%;
   }
+  .project-wrapper {
+    flex-direction: column;
+  }
+
+  .content-left {
+    flex-direction: column-reverse !important;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024.98px) {
   .project-about {
-    text-align: center;
+    text-align: left;
     padding: 1%;
     margin: 1%;
   }
   .project-description {
     margin-bottom: 8%;
+  }
+  .project-wrapper .seperator {
+    flex: 0;
+  }
+  .project-wrapper:nth-child(odd) .project-about {
+    text-align: right;
   }
 }
 @media only screen and (min-width: 1025px) {
@@ -89,7 +102,7 @@
   }
 
   .content-left {
-    text-align: right !important;
+    flex-direction: row-reverse !important;
   }
 
   /* .project-thumbnail-wrapper {

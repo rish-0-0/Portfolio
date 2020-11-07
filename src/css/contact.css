@@ -25,6 +25,7 @@
   border-radius: 36px;
   background-color: #000;
   display: inline-block;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
 }
 
 .contactme .input-group input[type=email] {
@@ -37,7 +38,6 @@
   font-size: min(25px,8vw);
   font-family: 'Raleway-Light';
   letter-spacing: 1px;
-
 }
 
 .contactme .input-icon {

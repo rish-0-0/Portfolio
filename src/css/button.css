@@ -7,20 +7,20 @@
 }
 
 .btn-large {
-  font-size: min(25px,7vw);
+  font-size: min(25px, 7vw);
   letter-spacing: 1.5px;
-  font-family: 'Raleway-Light' !important;
+  font-family: "Raleway-Light" !important;
   padding: 0 !important;
   height: 52px !important;
   line-height: 52px;
   width: 238px;
   border-radius: 52px !important;
   border: none !important;
-  box-shadow:  none !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.6) !important;
   margin: 12px;
 }
 .btn {
-  font-family: 'Lato-Light';
+  font-family: "Lato-Light";
   color: white;
   text-align: center;
   background-color: #777;
@@ -42,13 +42,12 @@
   background-color: #2b6bb7 !important;
 }
 
-
-@media only screen and (max-width:767.98px) {
+@media only screen and (max-width: 767.98px) {
   .btn-large {
-    width:50%;
+    width: 50%;
   }
 }
-@media only screen and (min-width:768px) {
+@media only screen and (min-width: 768px) {
 }
 @media only screen and (min-width: 1025px) {
 }
