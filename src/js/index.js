@@ -35,3 +35,14 @@ window
       document.getElementById("reha-img").src = "assets/Reha.jpg";
     }
   });
+
+// function submitForm(event) {
+//   const URL = "https://backend.rishabh-anand.com/api/v1/mail/send";
+//   const request = new XMLHttpRequest();
+//   request.open('POST', URL, true);
+//   request.onload = function () {
+
+//   }
+// }
+
+// document.getElementById("email_form").addEventListener('submit', submitForm);

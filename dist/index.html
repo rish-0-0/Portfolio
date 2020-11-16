@@ -288,7 +288,9 @@
         <span class="border-line"></span>
       </div>
       <div class="form-wrapper">
-        <form action="/send_email" method="POST" id="email_form">
+        <iframe name="hiddenFrame" width="0" height="0" style="display: none;"></iframe>
+
+        <form action="https://backend.rishabh-anand.com/api/v1/mail/send" method="POST" id="email_form" target="hiddenFrame">
           <div class="input-group">
             <span class="input-icon">
               <img
@@ -302,7 +304,8 @@
               type="email"
               placeholder="Email"
               id="emailinput"
-              name="email"
+              name="client_email"
+              autocomplete="off"
             />
           </div>
           <br />
