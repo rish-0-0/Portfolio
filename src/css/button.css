@@ -7,6 +7,7 @@
 }
 
 .btn-large {
+  cursor: pointer;
   font-size: min(25px, 7vw);
   letter-spacing: 1.5px;
   font-family: "Raleway-Light" !important;
@@ -16,7 +17,8 @@
   width: 238px;
   border-radius: 52px !important;
   border: none !important;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.6) !important;
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.6) !important;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4) !important;
   margin: 12px;
 }
 .btn {
