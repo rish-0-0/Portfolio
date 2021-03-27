@@ -48,8 +48,24 @@
       content="2020-11-03T18:30:00.000Z"
     />
     <meta property="article:modified_time" content="2020-11-06T06:40:50.655Z" />
+
+    <!-- Google Tag Manager -->
+    <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-PN6RVV3');
+    </script>
+  <!-- End Google Tag Manager -->
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+      <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PN6RVV3"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+      </noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <section class="hero">
       <img src="assets/Hero_dark_jpg_black.jpg" id="heroimg" />
       <h1 id="myname" aria-level="1" role="heading">RISHABH ANAND</h1>
@@ -151,11 +167,10 @@
       <h1 class="section-title" aria-level="1" role="heading">ABOUT</h1>
       <img src="assets/About_dark_jpg.jpg" id="aboutimg" />
       <p class="aboutme">
-        Software Developer based in Bangalore. Currently a 4th year CS Student,
-        studying in BITS Pilani, KK Birla Goa Campus and graduating in August
-        2021.
+        I am a fullstack software developer based in Bangalore. My stack generally revolves around <span class="highlighted">React / React Native</span>,
+        <span class="highlighted">NodeJS</span> and the occasional <span class="highlighted">Golang</span> or <span class="highlighted">Django</span>.
       </p>
-      <p class="aboutme">
+      <!-- <p class="aboutme">
         I have done 2 internships and 3 freelancing projects. My first
         internship being at Birla Science Center, BITS Pilani, Pilani. I had
         built a chatbot using
@@ -176,8 +191,8 @@
         Learning Models (YOLOV4 and Deep SORT). Great experience working at Megh
         and really liked the help received to achieve the same, the project is
         deployed on Megh's Servers.
-      </p>
-      <p class="aboutme">
+      </p> -->
+      <!-- <p class="aboutme">
         I have a passion for teaching the knowledge I achieve to help my juniors
         learn faster and grow at a rate much more than mine. I have taught
         courses in my campus (BITS Pilani, Goa Campus) which involved React,
@@ -252,17 +267,26 @@
         ). All of the projects mentioned previously, used either React, React
         Native, PostgreSQL, ExpressJS or used the Angular, PostgreSQL, ExpressJS
         stacks.
-      </p>
+      </p> -->
       <p class="aboutme">
         Most recent freelance project was at
+        <a href="https://www.thinkify.io/" class="inline-links" target="_blank"
+          >Thinkify</a
+        >
+        where I built a command line interface (CLI) which generates a fully functioning REST API from
+        an Open API spec file. 
+      </p>
+
+      <p class="aboutme">
+        Another freelance project was at
         <a href="https://algokart.in/" class="inline-links" target="_blank"
           >Algokart</a
         >
         where I used <strong>Flutter</strong> for their Mobile App and
         <strong>React</strong> for their Website to improve it and get it
-        functioning.
+        functioning. The project was an algorithmic trading platform.
       </p>
-      <p class="aboutme">
+      <!-- <p class="aboutme">
         Other than the projects at internships, I have done a research project
         under the guidance of my network programming teacher, Raj Kumar at BITS
         Pilani, Goa Campus. The title of the project was Using Deep Learning to
@@ -273,7 +297,7 @@
         easily adapt to give the least consumption of power while also taking
         into account Bandwidth and Congestion. The project involved building a
         network controller using the POX controller and a Tensorflow Model.
-      </p>
+      </p> -->
       <p class="aboutme">
         I have one personal project which took a long time to achieve with the
         help of some seniors we were able to get some data and few users
@@ -324,6 +348,7 @@
               id="emailinput"
               name="client_email"
               autocomplete="off"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
             />
           </div>
           <br />
