@@ -18,3 +18,8 @@ It uses a service worker to cache all the assets on the website to deliver light
 ## Webpack for Bundling
 
 I use webpack for bundling my website. I find it useful in order to generate optimized bundles.
+
+
+## Deployment on firebase
+
+It is deployed to firebase using `npx firebase deploy`
