@@ -1,11 +1,9 @@
-const CACHE_NAME = "rishabh-anand-v1";
+const CACHE_NAME = "rishabh-anand-v2";
 const URLS_TO_CACHE = [
   "/",
   "/index.html",
   "/style.css",
   "/bundle.js",
-  // "/assets/Hero_dark_jpg.jpg",
-  // "/assets/Hero_light_jpg.jpg",
   "/assets/Hero_dark_jpg_black.jpg",
   "/assets/Hero_light_jpg_white.jpg",
   "/assets/RA_Final_logo.png",
@@ -27,6 +25,8 @@ const URLS_TO_CACHE = [
   "/assets/About_dark_jpg.jpg",
   "/assets/About_light_jpg.jpg",
   "/assets/email-icon.svg",
+  "/assets/stratzylogo.svg",
+  "/assets/astrocharts.png"
 ];
 self.addEventListener("install", function (event) {
   // Perform install events
