@@ -76,9 +76,44 @@
         Music Enthusiast
       </h2>
     </section>
-    <section class="projects">
+    <section class="projects" id="projects">
+      <div class="seperator"></div>
       <h1 class="section-title" aria-level="1" role="heading">PROJECTS</h1>
-      <div class="project-wrapper">
+      <div class="project-wrapper" id="stratzy">
+        <div class="seperator"></div>
+        <div class="project-thumbnail-wrapper">
+          <img src="assets/stratzylogo.svg" class="project-thumbnail-img center-thumbnail" />
+        </div>
+        <div class="project-about">
+          <h3 class="project-title">Stratzy</h3>
+          <p class="project-description">
+            I built their entire Android app using
+            <span class="highlighted"
+              >Flutter, ExpressJS, MongoDB, and Firebase Authentication.</span
+            >
+            The app is an automated investment application which has multiple investment
+            strategies that users can make use of to grow their money.
+            
+            The company just got funded for $800,000 dollars from multiple investors. 
+            App Store Link:
+            <a
+              class="inline-links"
+              href="https://apps.apple.com/in/app/stratzy/id1591722308"
+              target="_blank"
+              >Stratzy</a
+            >
+          </p>
+          <a
+            href="https://stratzy.in"
+            target="_blank"
+            class="project-link btn btn-primary"
+          >
+            View
+          </a>
+        </div>
+        <div class="seperator"></div>
+      </div>
+      <div class="project-wrapper" id="reha">
         <div class="seperator"></div>
         <div class="project-thumbnail-wrapper">
           <img
@@ -90,9 +125,15 @@
         <div class="project-about">
           <h3 class="project-title">Reha</h3>
           <p class="project-description">
-            Reha is a mobile dating app based on astrological predictions and
-            theory. A team project for a client based in USA for the Indian
-            Market. The astrological calculations relied on a library designed
+            Reha is a mobile dating app based on astrological predictions and vedic
+            theory. A
+              <a
+              href="https://caarya.in"
+              target="_blank"
+              class="inline-links"
+              >Caarya</a
+            > project for a client based in USA for the Indian
+            Market. The astrological calculations relied on a library implemented
             by me (
             <a
               href="https://www.npmjs.com/package/astroreha"
@@ -100,18 +141,43 @@
               class="inline-links"
               >npm link</a
             >
-            ). The application's system design and architecture was done by me
+            ). The application's system design and architecture was also done by me
             and that involved setting up a
             <span class="highlighted"
               >PostgreSQL, Express, Firebase Authentication, Firebase Cloud
               Messaging, AWS S3, React Native Stack</span
-            >. The development part of this app was given to the junior
-            developers in the team of which I was the lead of. The app is
-            currently in beta and soon awaiting Full Production Rollout. Please
-            click view to join the Beta Program and become a tester!
+            >. The company is well funded now and doing really well.
           </p>
           <a
-            href="https://play.google.com/apps/testing/com.rehaapp"
+            href="https://play.google.com/store/apps/details?id=com.rehaapp"
+            target="_blank"
+            class="project-link btn btn-primary"
+          >
+            View
+          </a>
+        </div>
+        <div class="seperator"></div>
+      </div>
+      <div class="project-wrapper" id="astrocharts">
+        <div class="seperator"></div>
+        <div class="project-thumbnail-wrapper">
+          <img src="assets/astrocharts.png" class="project-thumbnail-img center-thumbnail" />
+        </div>
+        <div class="project-about">
+          <h3 class="project-title">Astrocharts</h3>
+          <p class="project-description">
+            I built an entire Android app using
+            <span class="highlighted"
+              >React Native and NodeJS</span
+            >
+            The app shows your birth chart and navamsa chart using astrological principles.
+            The algorithm for the above chart generations was borrowed from Open Source libraries which used NASA data.
+            It was a fun project which took me a day to build and also gave a decent return on time investment.
+            I launched it on the Google Play Store for ₹10 a download and it made me ₹2000 in it's first year.
+            Which proves there's a demand for highly accurate apps in astrology.
+          </p>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.astrocharts"
             target="_blank"
             class="project-link btn btn-primary"
           >
@@ -163,111 +229,13 @@
         <div class="seperator"></div>
       </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <h1 class="section-title" aria-level="1" role="heading">ABOUT</h1>
       <img src="assets/About_dark_jpg.jpg" id="aboutimg" />
       <p class="aboutme">
         I am a fullstack software developer based in Bangalore. My stack generally revolves around <span class="highlighted">React / React Native</span>,
-        <span class="highlighted">NodeJS</span> and the occasional <span class="highlighted">Golang</span> or <span class="highlighted">Django</span>.
+        <span class="highlighted">NodeJS</span> and the occasional <span class="highlighted">Golang</span> or <span class="highlighted">Python</span>.
       </p>
-      <!-- <p class="aboutme">
-        I have done 2 internships and 3 freelancing projects. My first
-        internship being at Birla Science Center, BITS Pilani, Pilani. I had
-        built a chatbot using
-        <a
-          href="https://cloud.google.com/dialogflow/docs"
-          class="inline-links"
-          target="_blank"
-        >
-          Dialogflow
-        </a>
-        which was presented in the Museum to the public! Wonderful experience at
-        the place and still thankful for the opportunity. Second internship was
-        at
-        <a href="https://megh.com/" class="inline-links" target="_blank"
-          >Megh Computing</a
-        >
-        where I had to build an Object Detection Pipeline using Python Machine
-        Learning Models (YOLOV4 and Deep SORT). Great experience working at Megh
-        and really liked the help received to achieve the same, the project is
-        deployed on Megh's Servers.
-      </p> -->
-      <!-- <p class="aboutme">
-        I have a passion for teaching the knowledge I achieve to help my juniors
-        learn faster and grow at a rate much more than mine. I have taught
-        courses in my campus (BITS Pilani, Goa Campus) which involved React,
-        NodeJS and MongoDB (MERN Stack). The strength of the class was 50 and my
-        first teaching experience. Our campus has a CTE (Center for Technical
-        Education) and I was part of that as a teacher.
-      </p>
-      <p class="aboutme">
-        My first freelance project was at
-        <a href="https://fountane.com/" class="inline-links" target="_blank"
-          >Fountane</a
-        >
-        based in Hyderabad, India. It was a wonderful experience where I made
-        <a href="#parkpoolr" class="inline-links">Parkpoolr</a> using my
-        knowledge of React, React Native, ExpressJS, PostgreSQL, Firebase
-        Services. I had, as part of my interview and screening process, also
-        helped in building
-        <a target="_blank" href="https://www.corbata.com/" class="inline-links"
-          >Corbata</a
-        >, an Uber Like application and was involved in the backend where I had
-        written the basis of the shortest path algorithm between user and
-        driver, and also performed a migration of data from the older MongoDB
-        stack to the newer PostgreSQL stack for speed improvements and
-        scalability. <br /><br />
-        Shortly after this freelance project, I got another opportunity to work
-        with
-        <a href="https://caarya.in/" target="_blank" class="inline-links"
-          >Caarya</a
-        >
-        where I was at a senior level among the developers and I was heading
-        multiple teams. Although this was part time (as I am still studying),
-        the Corona Virus pandemic converted me to a fulltime developer where I
-        actively participated in 7 projects (<a
-          href="https://10trove.com/"
-          class="inline-links"
-          target="_blank"
-          >10Trove</a
-        >,
-        <a
-          href="https://dhaatri-caarya.web.app/login"
-          class="inline-links"
-          target="_blank"
-          >Dhaatri</a
-        >,
-        <a href="https://rentyo.com/" class="inline-links" target="_blank"
-          >Rentyo</a
-        >,
-        <a
-          href="https://play.google.com/apps/testing/com.rehaapp"
-          class="inline-links"
-          target="_blank"
-          >Reha</a
-        >,
-        <a
-          href="https://raxa-admin-panel.web.app/"
-          class="inline-links"
-          target="_blank"
-          >Raxa</a
-        >,
-        <a
-          href="https://chronoscaarya.web.app/"
-          class="inline-links"
-          target="_blank"
-          >Chronos</a
-        >,
-        <a
-          href="https://tce-asset-library.web.app/"
-          class="inline-links"
-          target="_blank"
-          >Design Storybook</a
-        >
-        ). All of the projects mentioned previously, used either React, React
-        Native, PostgreSQL, ExpressJS or used the Angular, PostgreSQL, ExpressJS
-        stacks.
-      </p> -->
       <p class="aboutme">
         Most recent freelance project was at
         <a href="https://www.thinkify.io/" class="inline-links" target="_blank"
@@ -276,44 +244,27 @@
         where I built a command line interface (CLI) which generates a fully functioning REST API from
         an Open API spec file. 
       </p>
+      <p class="aboutme">
+        I have a personal project which I was very proud of as it was my first android app that I sold to the world.
+        I used the 
+          <a
+            href="https://www.npmjs.com/package/astroreha"
+            target="_blank"
+            class="inline-links"
+            >open source library</a
+          >
+        that I built and made my own app out of it. It's called Astrocharts and is available on the <a
+        href="https://play.google.com/store/apps/details?id=com.astrocharts"
+        target="_blank"
+        class="inline-links"
+        >Google Play Store</a>.
+        
+        My belief on astrology is still no, but I am not a developer who won't like to help people with
+        a different view on the world. Everybody should benefit from technology, automation and programming.
 
-      <p class="aboutme">
-        Another freelance project was at
-        <a href="https://algokart.in/" class="inline-links" target="_blank"
-          >Algokart</a
-        >
-        where I used <strong>Flutter</strong> for their Mobile App and
-        <strong>React</strong> for their Website to improve it and get it
-        functioning. The project was an algorithmic trading platform.
-      </p>
-      <!-- <p class="aboutme">
-        Other than the projects at internships, I have done a research project
-        under the guidance of my network programming teacher, Raj Kumar at BITS
-        Pilani, Goa Campus. The title of the project was Using Deep Learning to
-        guide Software Defined Networks. In this project I had to build a Deep
-        Learning model with the data being provided by Raj Sir, using which the
-        model could understand the various intricacies of the Software Defined
-        Hosts, Software Defined Routers and Software Defined Sub Networks and
-        easily adapt to give the least consumption of power while also taking
-        into account Bandwidth and Congestion. The project involved building a
-        network controller using the POX controller and a Tensorflow Model.
-      </p> -->
-      <p class="aboutme">
-        I have one personal project which took a long time to achieve with the
-        help of some seniors we were able to get some data and few users
-        onboarded.
-        <a
-          href="https://ucadd.rishabh-anand.com/"
-          target="_blank"
-          class="inline-links"
-          >Ucadd</a
-        >
-        is an online learning platform which has carefully curated videos, tons
-        of questions and perfect analysis to help you guide your JEE (Joint
-        Entrance Examination) preparation to the absolute next level.
       </p>
     </section>
-    <section class="contactme">
+    <section class="contactme" id="contactme">
       <div class="contact-me-section-header">
         <span class="border-line"></span>
         <span id="contact-section-heading">Contact Me</span>
@@ -360,7 +311,7 @@
         </form>
       </div>
     </section>
-    <section class="links">
+    <section class="links" id="links">
       <!-- <hr class="orange-line-break" /> -->
       <div class="links-wrapper">
         <a
@@ -407,7 +358,7 @@
         </a>
       </div>
     </section>
-    <section class="footer">
+    <section class="footer" id="footer">
       <img src="assets/RA_Final_logo.png" id="finallogo" />
       <p class="footer-text">&copy; Rishabh Anand, 2020</p>
     </section>

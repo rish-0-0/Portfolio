@@ -168,7 +168,7 @@
 }
 @media only screen and (min-width: 1025px) {
   #finallogo {
-    width: 25vw;
+    width: 10vw;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -244,6 +244,7 @@
 @media only screen and (min-width:1025px) {
   #heroimg {
     width: 60vw;
+    transform: scale(1.5);
   }
 
   #myname {
