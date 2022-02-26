@@ -1,4 +1,4 @@
-const CACHE_NAME = "rishabh-anand-v1";
+const CACHE_NAME = "rishabh-anand-v2";
 const URLS_TO_CACHE = [
   "/",
   "/index.html",
